@@ -75,9 +75,14 @@ PORT=5000
 MONGO_URI=mongodb://127.0.0.1:27017/task_management
 
 ```
+6.Seed the database with initial sample tasks:
+```bash
+npm run seed
+
+```
 
 
-6. Start the development server:
+7. Start the development server:
 ```bash
 npm run dev
 
